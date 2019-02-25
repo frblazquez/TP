@@ -12,9 +12,9 @@ import tp.pr3.exceptions.*;
 public class Game 
 {
 	private int _size, _initCells, _points;
-	private long _seed;			//Guardamos la semilla para poder hacer un reset identico altablero inicial
+	private long _seed;															//Guardamos la semilla para poder hacer un reset identico altablero inicial
 	private Board _board;
-	private static Random _random;		//static para que siempre que se use se modifique se llame desde donde sea
+	private static Random _random;												//static para que siempre que se use se modifique se llame desde donde sea
 	private GameStateStack _undoStack; 
 	private GameStateStack _redoStack;
 	private GameRules _currentRules;

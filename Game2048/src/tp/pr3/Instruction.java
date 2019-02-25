@@ -12,7 +12,7 @@ public enum Instruction
 		if(inst.equals("move"))				return MOVE;
 		if(inst.equals("reset"))			return RESET;
 		if(inst.equals("exit"))				return EXIT;
-		else 						return ERROR;
+		else 								return ERROR;
 	}
 	//DEFINIDO EN CONTROLLER!!
 }
